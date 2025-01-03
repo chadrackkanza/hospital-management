@@ -154,7 +154,7 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-400 hover:bg-gray-800 hover:text-white">
+                <a href="./Patient.html" class="  group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-400 hover:bg-gray-800 hover:text-white">
                   <i class="fa-solid fa-users text-2xl"></i>
                   Patients
                 </a>
@@ -255,68 +255,35 @@
             <div class="mt-8 flow-root">
               <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-                  <table class="min-w-full divide-y divide-gray-300">
+                  <table class="min-w-full bg-white">
                     <thead>
-                      <tr>
-                        <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-3">Name</th>
-                        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Gender</th>
-                        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Phone Number</th>
-                        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Adress</th>
-                        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Department</th>
-                        <!-- <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Gender</th> -->
-                        <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-3">
-                          <span class="sr-only">Edit</span>
-                        </th>
-                      </tr>
+                        <tr>
+                            <th class="py-2 px-4 border-b">Nom</th>
+                            <!-- <th class="py-2 px-4 border-b">Date de naissance</th> -->
+                            <th class="py-2 px-4 border-b">Sexe</th>
+                            <th class="py-2 px-4 border-b">Adresse</th>
+                            <th class="py-2 px-4 border-b">Numéro de téléphone</th>
+                            <th class="py-2 px-4 border-b">Email</th>
+                            <th class="py-2 px-4 border-b">Spécialité</th>
+                            <th class="py-2 px-4 border-b">Années d'expérience</th>
+                            <!-- <th class="py-2 px-4 border-b">Mot de passe</th> -->
+                        </tr>
                     </thead>
-                    <tbody class="bg-white">
-                      <tr class="even:bg-gray-50">
-                        <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-3">Beni Kayembe</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Male</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">+905338630337</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Istambul, sokak 78</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Generalist</td>
-                        <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-3">
-                          <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Beni Kayembe Bukasa</span></a>
-                        </td>
-                      </tr>
-          
-                      <!-- More people... -->
-
-                      <tr class="even:bg-gray-50">
-                        <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-3">Chardaine Kombo</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Female</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">+9055488652</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Lefkosia, sokak 78</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Dermatology</td>
-                        <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-3">
-                          <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Chardaine Kombo</span></a>
-                        </td>
-                      </tr>
-
-                      <tr class="even:bg-gray-50">
-                        <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-3">Chadrack Kanza</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Male</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">+9055652181</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Nicosie, sokak 78</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Ophthalmology</td>
-                        <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-3">
-                          <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Chadrack Kanza</span></a>
-                        </td>
-                      </tr>
-
-                      <tr class="even:bg-gray-50">
-                        <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-3">Pascal Bisimwa</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Male</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">+90533865437</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Larnaca, sokak 78</td>
-                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Cardiology</td>
-                        <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-3">
-                          <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Pascal Bisimwa</span></a>
-                        </td>
-                      </tr>
+                    <tbody class="text-center">
+                        <tr>
+                            <td class="py-2 px-4 border-b">John Doe</td>
+                            <!-- <td class="py-2 px-4 border-b">01/01/1980</td> -->
+                            <td class="py-2 px-4 border-b">Homme</td>
+                            <td class="py-2 px-4 border-b">123 Rue Exemple</td>
+                            <td class="py-2 px-4 border-b">0123456789</td>
+                            <td class="py-2 px-4 border-b">john.doe@example.com</td>
+                            <td class="py-2 px-4 border-b">Cardiologie</td>
+                            <td class="py-2 px-4 border-b">10</td>
+                            <!-- <td class="py-2 px-4 border-b">********</td> -->
+                        </tr>
+                        <!-- Ajoutez d'autres lignes ici -->
                     </tbody>
-                  </table>
+                </table>
                 </div>
               </div>
             </div>
